@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="/home/nalu/workspace/AMEE-libs/testng.jar"/>
+	<classpathentry kind="lib" path="/home/nalu/workspace/AMEE-libs/joda-time-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/nalu/workspace/AMEE-libs/commons-httpclient/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="/home/nalu/workspace/AMEE-libs/commons-logging/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/home/nalu/workspace/AMEE-libs/json/org.json.jar"/>
+	<classpathentry kind="lib" path="/home/nalu/workspace/AMEE-libs/commons-codec/commons-codec.jar"/>
+	<classpathentry kind="lib" path="/home/nalu/workspace/AMEE-libs/AMEEJavaClient.1.6.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
