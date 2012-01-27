@@ -20,11 +20,15 @@ The demo should work on any Android version, but I've tested it on 1.6 (donut) a
 
 Building
 ========
+
+
 First you'll need to replace USERNAME and PASSWORD in the source code with your login
 details for stage.amee.com. Get one for free at https://my.amee.com/
 
-Assuming you've got the android-sdk setup with its tools in your path:
+Assuming you've got the android-sdk setup with its tools in your path, and that you're 
+building for target 1:
 
+android update project --name AMEEDemo --path ./AMEEDemo -target 1
 cd AMEEDemo
 ant clean
 ant build
