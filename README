@@ -1,0 +1,33 @@
+AMEE Demo for Android
+=====================
+andrew@amee.com
+27 January 2011
+
+This is a very simple demo that demonstrates how AMEE's java client library can be used to
+create and android app. The app itself simply asks for two drill down choices and creates
+an AMEE profile item inside a new profile (creating a new profile each time isn't efficient,
+but keeps the code simple).
+
+The AMEE client library and all other dependencies can be found in the libs dir, so you might
+want to check if a new version of the client library is available from here:
+
+https://github.com/AMEE/amee-lib-java/
+
+It also has examples of how to use the client library beyond what is shown in this simple demo.
+
+The demo should work on any Android version, but I've tested it on 1.6 (donut) and 2.3.3 
+(gingerbread).
+
+Building
+========
+First you'll need to replace USERNAME and PASSWORD in the source code with your login
+details for stage.amee.com. Get one for free at https://my.amee.com/
+
+Assuming you've got the android-sdk setup with its tools in your path:
+
+cd AMEEDemo
+ant clean
+ant build
+
+To install in a running AVD emulator that's already running:
+android install -r bin/AMEEDemo-debug.apk
